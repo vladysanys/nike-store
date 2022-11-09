@@ -1,0 +1,555 @@
+*
+    box-sizing: border-box
+html
+    font-family: 'Montserrat', sans-serif
+.container
+    margin: 0 auto
+    position: relative
+    max-width: 1300px
+.container-2
+    margin: 0 auto
+    position: relative
+    max-width: 1300px
+    overflow: hidden
+    padding-left: 0
+.navigation-menu
+    display: flex
+    height: 80px
+    &__items
+        padding-top: 28px
+    &__items_ul
+        display: flex
+        width: 274px
+    &__item
+        margin-right: 50px
+        font-weight: 400
+        font-size: 20px
+        line-height: 24px
+        &:last-child
+            position: relative
+            margin-right: 0px
+        &_a
+            text-decoration: none
+            outline: none
+            color: #000000
+            &:hover
+                font-weight: 700
+                border-bottom: 2px solid #000000
+    &__icons
+        padding-top: 24px
+        display: flex
+        align-content: center
+        justify-content: space-between
+        width: 176px
+        height: 30px
+    &__icons_box
+        width: 26px
+        height: 30px
+        text-decoration: none
+        outline: none
+        border: none
+        background-color: #ffffff
+        cursor: pointer
+.active
+    display: none
+.active-44
+    margin-left: 20px
+    transition: all ease 0.5s
+    margin-right: 15px
+input
+    width: 260px
+    height: 35px
+    border: 1px solid black
+    border-radius: 18px
+    transition: all ease 1s
+.search-2
+    margin-left: -100px
+    transition: all ease 0.5s
+.sign
+    margin-left: -150px
+    transition: all ease 0.3s
+.debosh-2
+    transition: all ease 0.2s
+.urna-2
+    display: none
+.urna
+    position: absolute
+    top: 65px
+    width: 200px
+    height: 300px
+    border-radius: 18px
+    border: 1px solid #bbb
+    background: #ffff
+    z-index: 2
+    -webkit-animation: scale-up-ver-top 0.6s both
+    animation: scale-up-ver-top 0.6s both
+    &_button
+        position: absolute
+        top: 8px
+        left: 166px
+        text-decoration: none
+        outline: none
+        border: none
+        background: #ffff
+        cursor: pointer
+    &_krest
+        height: 15px
+        width: 15px
+    &__box
+        position: relative
+        padding-top: 50px
+    &_img
+        padding-left: 86px
+        padding-bottom: 10px
+    &_text
+        text-align: center
+        font-weight: 700
+        padding-bottom: 40px
+    &_text-2
+        padding-left: 10px
+        padding-bottom: 75px
+        &_span
+            padding-left: 70px
+    &_hr
+        border: 1px dotted black
+        width: 175px
+    &_title
+        margin-top: 0.2em
+        margin-left: 10px
+
+
+
+
+.logo
+    margin-left: 228px
+    &_text
+        font-weight: 400
+        font-size: 32px
+        line-height: 39px
+        color: rgba(160, 160, 160, 1)
+        letter-spacing: 10%
+        margin-right: 333px
+        &_span
+            font-weight: 700
+            color: #000000
+.background
+    position: relative
+    width: 1400px
+    height: 300px
+.first-section
+    height: 300px
+    background-color: #111111
+    margin-bottom: 50px
+    &__content
+        &_title
+            position: absolute
+            top: 50px
+            font-style: italic
+            font-weight: 900
+            font-size: 40px
+            line-height: 49px
+            color: #FFFFFF
+        &_text
+            position: absolute
+            top: 128px
+            width: 559px
+            font-weight: 900
+            font-size: 20px
+            line-height: 24px
+            color: #FFFFFF
+        &_button
+            position: absolute
+            top: 230px
+            &_setting
+                width: 200px
+                height: 40px
+                border-radius: 16px
+                display: inline-block
+                background: #ffffff
+                padding: 10px
+                border: none
+                text-decoration: none
+                cursor: pointer
+                box-shadow: inset 0 -5px 0 #bbbbbb
+                transition: 0.4s ease-in-out
+                &:hover
+                    box-shadow: inset 0 -60px 0 #bbbbbb, 2px 2px 3px rgba(0, 0, 0, 0.3)
+                    color: #ffffff
+            &_text
+                font-size: 18px
+                font-weight: 400
+                line-height: 20px
+                color: #000000
+    &_footers
+        position: relative
+        display: flex
+        flex-direction: row
+        overflow: hidden
+    &_footer-1
+        padding-left: 1136px
+        position: absolute
+        overflow: hidden
+.interval-section
+    position: relative
+    display: flex
+    overflow: hidden
+    align-items: center
+    justify-content: center
+    margin-bottom: -100px
+    &_background
+        width: 1980px
+        z-index: -1
+    &_vector
+        position: absolute
+        top: 340px
+.second-section
+    position: relative
+    background-color: #ffffff
+    min-height: 640px
+    &__content-box_img
+        position: absolute
+        top: 19px
+        left: 18px
+    &__content-box
+        position: absolute
+        top: -40px
+        height: 272px
+        width: 602px
+        background: #EFEFEF
+        box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25)
+        border-radius: 18px
+        transition: 1s
+        &:hover
+            height: 292px
+            width: 622px
+        &_title
+            padding-top: 60px
+            font-weight: 700
+            font-style: italic
+            font-size: 48px
+            line-height: 58px
+            color: #FF3939
+            padding-left: 66px
+            margin: 0
+        &_text
+            padding-top: 10px
+            width: 280px
+            font-weight: 400
+            font-size: 20px
+            line-height: 24px
+            letter-spacing: 0.01em
+            padding-left: 66px
+            padding-bottom: 10px
+        &_button
+            position: relative
+            display: flex
+            justify-content: center
+            align-items: center
+            height: 55px
+            width: 55px
+            margin-left: 86px
+            border-radius: 35px
+            background: #ffffff
+        &__right-wrapper
+            position: absolute
+            top: -108px
+            left: 150px
+    &__text-box
+        position: absolute
+        top: 350px
+        text-align: center
+        width: 1300px
+    &__text-2
+        font-weight: 400
+        font-size: 40px
+        line-height: 48px
+    &__title-2
+        font-weight: 900
+        font-style: italic
+        font-size: 80px
+        line-height: 97px
+    &__text-3
+        font-weight: 400
+        font-size: 40px
+        line-height: 49px
+.second-content-box
+    margin-left: 674px
+.button-2
+    margin-top: 28px
+.red-shoe
+    height: 465px
+    width: 530px
+.third-section
+    position: relative
+    height: 827px
+    margin: 0 auto
+    overflow: hidden
+    &__slider_button-img
+        padding-top: 4px
+    &__content-title-buttons
+        display: flex
+        align-items: center
+    &__title
+        padding-top: 103px
+        font-weight: 700
+        font-size: 40px
+        line-height: 48px
+        color: #000000
+    &__slider-line
+        position: relative
+        left: 10px
+        display: flex
+        height: 668px
+        overflow: hidden
+        width: 2700px
+        transition: all ease 1s
+    &__slider-item
+        margin-top: 33px
+        height: 500px
+        width: 400px
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2)
+        background: rgba(239, 239, 239, 1)
+        margin-right: 38px
+        border-radius: 18px
+        overflow: hidden
+        background-image: url('/nike-store/img/NIKE.png')
+        background-repeat: no-repeat
+        background-position: center
+        &:last-child
+            margin-right: 0px
+    &__slider_button-item
+        position: absolute
+        top: 103px
+        z-index: 1
+        height: 55px
+        width: 55px
+        border-radius: 35px
+        color: rgba(245, 245, 245, 1)
+        border: none
+        text-decoration: none
+    &__slider-img
+        z-index: 1
+        width: 380px
+        height: 315px
+    &__title-2
+        font-weight: 700
+        font-size: 40px
+        line-height: 46px
+        padding-left: 36px
+    &__price
+        font-weight: 400
+        font-size: 20px
+        line-height: 23px
+        padding-left: 36px
+        padding-top: 30px
+    &__position
+        margin-left: 307px
+    &__a
+        width: 55px
+        height: 55px
+        border-radius: 35px
+    &__button-img
+        padding-left: 18px
+        padding-top: 19px
+    &_button
+        transform: rotate(180deg)
+
+.prev
+    margin-left: 1140px
+.next
+    margin-left: 1220px
+.content-box
+    margin: 0 auto
+    width: 1300px
+    height: 668px
+    z-index: 1
+    overflow: hidden
+.fourth-section
+    height: 1830px
+    &_title
+        font-weight: 700
+        font-size: 40px
+        line-height: 49px
+        margin-bottom: 30px
+    &__content-boxes
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+    &__content-box
+        width: 650px
+        height: 570px
+
+.box-1
+    display: flex
+    align-items: center
+    &_text
+        font-style: italic
+        font-weight: 700
+        font-size: 36px
+        line-height: 44px
+        letter-spacing: 0.3em
+        margin: 0 auto
+.box-2
+    position: relative
+    overflow: hidden
+    &_gif
+        position: absolute
+        left: -170px
+        height: 570px
+.box-3
+    position: relative
+    overflow: hidden
+    &_gif
+        position: absolute
+        height: 570px
+.box-6
+    &_gif
+        height: 650px
+.fifth-section
+    height: 573px
+    &_content-button_a
+        text-decoration: none
+        outline: none
+        height: 20px
+    &_title
+        font-weight: 900
+        font-style: italic
+        font-size: 40px
+        line-height: 48px
+        text-align: center
+        padding-top: 35px
+        padding-bottom: 100px
+    &__boxes
+        display: flex
+    &_content-box
+        position: relative
+        width: 606px
+        height: 272px
+        border-radius: 18px
+        box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25)
+        background: #EFEFEF
+        margin-right: 53px
+        padding-left: 48px
+        padding-top: 51px
+        &:last-child
+            margin-right: 0px
+    &_content-title
+        color: #FF3939
+        font-weight: 700
+        font-size: 24px
+        line-height: 30px
+        padding-bottom: 20px
+        &_span
+            font-size: 30px
+            line-height: 36px
+    &_content-text
+        font-weight: 400
+        font-size: 20px
+        line-height: 24px
+        margin-bottom: 45px
+    &_content-button
+        width: 180px
+        height: 54px
+        background: #000000
+        border-radius: 16px
+        text-decoration: none
+        border: none
+        z-index: 2
+        &_text
+            font-weight: 400
+            font-size: 20px
+            line-height: 24px
+            color: #ffffff
+    &_content-img
+        position: absolute
+        top: -107px
+        left: 183px
+.img
+    position: absolute
+    top: -70px
+    left: 221px
+.fifth-section_content-button_a
+    width: 180px
+    height: 54px
+    border-radius: 16px
+    z-index: 2
+.sixth-section
+    height: 364px
+    font-weight: 700
+    font-size: 40px
+    line-height: 48p
+    &__content-box
+        background-image: url("/nike-store/img/image 11.png")
+        height: 324px
+        width: 1400px
+        margin: 0 auto
+    &__content-title
+        width: 308px
+        padding-top: 44px
+        padding-left: 50px
+        font-weight: 900
+        font-style: italic
+        font-size: 40px
+        line-height: 48px
+        color: #ffffff
+        padding-bottom: 25px
+    &__content-text
+        width: 446px
+        padding-left: 50px
+        font-weight: 400
+        font-size: 20px
+        line-height: 24px
+        color: #FFFfff
+        padding-bottom: 25px
+    &__content-span
+        font-weight: 700
+    &__content-button
+        margin-left: 50px
+        text-decoration: none
+        outline: none
+        border: none
+        width: 150px
+        height: 40px
+        border-radius: 16px
+    &__content-p
+        text-decoration: none
+        outline: none
+        font-weight: 400
+        font-size: 16px
+        line-height: 19.5px
+        color: #000000
+    &__content-a
+        text-decoration: none
+        outline: none
+.footer
+    position: relative
+    background-color: #000000
+    height: 320px
+    &__content-box
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        &_text
+            font-weight: 400
+            font-size: 18px
+            line-height: 22px
+            text-align: center
+            color: #ffffff
+            padding-bottom: 50px
+    &_box-1
+        margin-top: 76px
+        display: flex
+        flex-direction: column
+    &_box-2
+        margin-top: 76px
+        display: flex
+        flex-direction: column
+    &_img-1
+        position: absolute
+        margin: 0 auto
+        top: 75px
+        margin-left: 400px
+.a-2
+    text-decoration: none
+    outline: none
+    color: #ffffff

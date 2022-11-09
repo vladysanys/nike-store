@@ -1,0 +1,7 @@
+@media screen and (max-width: 450) {
+  body .navigation-menu__item {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
