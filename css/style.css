@@ -27,11 +27,12 @@ html {
     -webkit-transform-origin: 100% 0%;
     -webkit-transform-origin-transform-origin: 100% 0%;
   }
-  100%;
-  -webkit-transform: scaleY(1);
-  -webkit-transform-transform: scaleY(1);
-  -webkit-transform-origin: 100% 0%;
-  -webkit-transform-origin-transform-origin: 100% 0%;
+  100% {
+    -webkit-transform: scaleY(1);
+    -webkit-transform-transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    -webkit-transform-origin-transform-origin: 100% 0%;
+  }
 }
 .container {
   margin: 0 auto;
