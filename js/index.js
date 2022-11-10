@@ -20,6 +20,7 @@ const sign = document.querySelector('.profile')
 const search2 = document.querySelector('.active-2')
 const debosh = document.querySelector('.debosh')
 const urna = document.querySelector('.urna')
+const burger = document.querySelector('.burger-2')
 document.querySelector('.search').addEventListener('click', () => {
   search.classList.remove('active')
   input.classList.remove('active')
@@ -33,4 +34,7 @@ document.querySelector('.urna-44').addEventListener('click', () => {
 })
 document.querySelector('.urna_button').addEventListener('click', () => {
   urna.classList.add('urna-2')
+})
+document.querySelector('.nav-menu__button').addEventListener('click', () => {
+  burger.classList.toggle('burger-2')
 })
