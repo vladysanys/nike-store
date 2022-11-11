@@ -1,19 +1,7 @@
+var b = document.querySelector('body');
+var w = b.clientWidth || b.offsetWidth
+let sum2 = 0;
 let sum = 10;
-const sliderLine = document.querySelector('.third-section__slider-line')
-document.querySelector('.next').addEventListener('click', () => {
-  sum = sum - 438
-  if(sum < -1314) {
-    sum = 10
-  }
-  sliderLine.style.left = sum + 'px'
-})
-document.querySelector('.prev').addEventListener('click', () => {
-  sum = sum + 438
-  if(sum > 10) {
-    sum = -1314
-  }
-  sliderLine.style.left = sum + 'px'
-})
 const search = document.querySelector('form')
 const input = document.querySelector('input')
 const sign = document.querySelector('.profile')
@@ -38,3 +26,37 @@ document.querySelector('.urna_button').addEventListener('click', () => {
 document.querySelector('.nav-menu__button').addEventListener('click', () => {
   burger.classList.toggle('burger-2')
 })
+const sliderLine = document.querySelector('.third-section__slider-line')
+
+if(b.clientWidth <= 450 || b.offsetWidth <= 450) {
+  document.querySelector('.next-2').addEventListener('click', () => {
+    sum2 = sum2 - 401
+    if(sum2 < -2005) {
+      sum2 = 0
+    }
+    sliderLine.style.left = sum2 + 'px'
+    })
+    
+  document.querySelector('.prev-2').addEventListener('click', () => {
+      sum2 = sum2 + 401
+      if(sum2 > 0) {
+        sum2 = -2005
+      }
+      sliderLine.style.left = sum2 + 'px'
+      })
+  } else {
+    document.querySelector('.next').addEventListener('click', () => {
+      sum = sum - 438
+      if(sum < -1314) {
+        sum = 10
+      }
+      sliderLine.style.left = sum + 'px'
+    })
+    document.querySelector('.prev').addEventListener('click', () => {
+      sum = sum + 438
+      if(sum > 10) {
+        sum = -1314
+      }
+      sliderLine.style.left = sum + 'px'
+    })
+}
