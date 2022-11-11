@@ -579,16 +579,17 @@ input
     .container
         margin: 0 auto
         position: relative
-        max-width: 100%
+        width: 100%
     .container-phone
         margin: 0 auto
         position: relative
         max-width: 100%
-        overflow: hidden
+        // overflow: hidden
     .first-section
         height: 391px
         position: relative
-        margin-bottom: 0px
+        margin-bottom: 6%
+        z-index: 1
     .navigation-menu
         display: none
     .nav-menu
@@ -597,21 +598,22 @@ input
         background-color: #ffffff
         flex-direction: row
         align-items: center
+        width: 100%
         &__button
             outline: none
             text-decoration: none
             border: none
             background-color: #ffffff
-            margin-right: 53px
+            margin-right: 16%
             cursor: pointer
             &_img
                 margin-top: 1px
-                margin-left: 20px
+                margin-left: 32%
                 height: 23px
                 width: 33px
     .logo_text
         font-size: 20px
-        margin-right: 53px
+        margin-right: 18%
     .burger-2
         display: none
     .burger
@@ -669,26 +671,33 @@ input
         animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
     .background
         display: none
-    .first-section_footer
-        display: none
-    .first-section_footer-1
+    .first-section_footers
         display: none
     .gif-phone
-        width: 375px
+        width: 100%
+        position: relative
     .first-section__content_title
         font-size: 16px
+    .first-section
+        overflow: visible
     .first-section__content
-        height: 200px
+        position: relative
+        top: -87%
+        height: 36vw
         width: 100%
         z-index: 1
         margin-left: 20px
+        padding-top: 1%
+        &_title
+            height: 35px
+            position: static
+            margin-bottom: 3%
         &_text
-            position: absolute
-            top: 93px
-            font-size: 9px
+            position: static
+            font-size: 0.5em
             width: 287px
         &_button
-            top: 170px
+            position: static
             &_setting
                 width: 115px
                 height: 30px
@@ -696,18 +705,22 @@ input
             &_text
                 font-size: 10px
     .container-phone-2
-        top: 176px
+        // top: 53%
         position: absolute
         height: 200px
         width: 100%
     .interval-section_background
         width: 600px
-        margin-left: 42px
+        height: 100%
+        // margin-left: 42px
         z-index: 0
+        
     .interval-section_vector
         top: 85px
         width: 99px
+        z-index: 2
     .second-section
+        margin: 0 auto
         height: 400px
         z-index: 1
         &__content-box
@@ -717,6 +730,9 @@ input
             transition: none
             z-index: 1
             overflow: none
+            &:hover
+                height: 170px
+                width: 290px
             &_title
                 padding-top: 8px
                 font-size: 20px
@@ -746,11 +762,20 @@ input
         display: none
     .first_phone
         position: absolute
-        left: 40px
+        margin-left: 12%
         top: -22px
     .third-section__a
         width: 25px
         height: 25px
+    .background-phone
+        width: 100%
+    .background-phone-2
+        width: 100%
+        overflow: visible
+    .interval-section
+        position: relative
+        overflow: hidden
+        position: static
 @media (  min-width: 451px )
     .nav-menu
         display: none
