@@ -635,7 +635,7 @@ input {
   line-height: 48p;
 }
 .sixth-section__content-box {
-  background-image: url("img/image 11.png");
+  background-image: url("/nike-store/img/image 11.png");
   height: 324px;
   width: 1400px;
   margin: 0 auto;
@@ -1157,7 +1157,7 @@ input {
   .box-2-phone {
     position: absolute;
     top: 49%;
-    height: 100%;
+    height: 99%;
     width: 199px;
   }
 
@@ -1192,6 +1192,7 @@ input {
   }
 
   .p-1 {
+    margin-top: 2%;
     margin-left: 4%;
   }
 
@@ -1259,7 +1260,7 @@ input {
     margin-bottom: 6%;
   }
 
-  .sixth-section__content-box {
+  .sixth-section__content-box-phone {
     background-image: none;
     width: 100%;
   }
