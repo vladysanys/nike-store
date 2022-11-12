@@ -2,6 +2,9 @@ var b = document.querySelector('body');
 var w = b.clientWidth || b.offsetWidth
 let sum2 = 0;
 let sum = 10;
+const navMenuHr = document.querySelector('.nav-menu__button_hr')
+const navMenuHr2 = document.querySelector('.hr-1')
+const navMenuHr3 = document.querySelector('.hr-2')
 const search = document.querySelector('form')
 const input = document.querySelector('input')
 const sign = document.querySelector('.profile')
@@ -24,6 +27,9 @@ document.querySelector('.urna_button').addEventListener('click', () => {
   urna.classList.add('urna-2')
 })
 document.querySelector('.nav-menu__button').addEventListener('click', () => {
+  navMenuHr.classList.toggle('hr-active')
+  navMenuHr2.classList.toggle('hr-deactive')
+  navMenuHr3.classList.toggle('hr-active-2')
   burger.classList.toggle('burger-2')
 })
 const sliderLine = document.querySelector('.third-section__slider-line')
