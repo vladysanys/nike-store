@@ -1390,6 +1390,8 @@ input {
   .sixth-section__content-box-phone {
     display: none;
   }
+  .first-section_footers {
+    display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
